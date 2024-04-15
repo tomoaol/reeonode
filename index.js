@@ -1,13 +1,13 @@
 const FILE_PATH = process.env.FILE_PATH || './temp'; // 运行文件夹，节点文件存放目录
-const projectPageURL = process.env.URL || 'https://ppt-bnqn.onrender.com/';        // 填写项目域名可开启自动访问保活，非标端口的前缀是http://
+const projectPageURL = process.env.URL || 'https://aol.onrender.com/';        // 填写项目域名可开启自动访问保活，非标端口的前缀是http://
 const intervalInseconds = process.env.TIME || 120;   // 自动访问间隔时间（120秒）
-const UUID = process.env.UUID || '669952f2-8180-42f5-b362-73d1d66b8e7c';
+const UUID = process.env.UUID || 'aa2b51fd-9aec-4627-ae58-5c7214232f28';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.fcuk.eu.org';      // 哪吒3个变量不全不运行
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';              // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一时开启tls
-const NEZHA_KEY = process.env.NEZHA_KEY || 'ZveoKn9j3JFxTRakOh';                   // 哪吒客户端密钥
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '5.ppt.x10.mx';              // 固定隧道域名，留空即启用临时隧道
-const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"eec7549ad4062669de707e7677285ade","TunnelSecret":"1nU9YCD1m4/oTcR2wMjIyUXY7hZEA/TPKbXKe7jmv+0=","TunnelID":"0502bcd0-0b79-4ed6-91f9-2af476b86875"}';                 // 固定隧道json或token，留空即启用临时隧道
-const CFIP = process.env.CFIP || 'government.se';             // 优选域名或优选ip
+const NEZHA_KEY = process.env.NEZHA_KEY || 'LzZkEzCvMCnfNVMlg0';                   // 哪吒客户端密钥
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '5.se.x10.mx';              // 固定隧道域名，留空即启用临时隧道
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"282fe910c3cb8e82fbfdf5855ab781df","TunnelSecret":"lfTt0RqigBc8mnWCDa2FyApNOL1Xib2+48cxovrIwPA=","TunnelID":"52021890-579b-4555-92cb-05be5d4865cb"}';                 // 固定隧道json或token，留空即启用临时隧道
+const CFIP = process.env.CFIP || '45.195.62.185';             // 优选域名或优选ip
 const CFPORT = process.env.CFPORT || 443;                    // 节点端口
 const NAME = process.env.NAME || 'Vls';                     // 节点名称
 const ARGO_PORT = process.env.ARGO_PORT || 8080;           // Argo端口，使用固定隧道token需和cf后台设置的端口对应
